@@ -1,8 +1,17 @@
 # Zipf-Law
-In 1935, the American linguist George Zipf noticed something very peculiar with the books he was reading. Whenever he would count the words in his books, he noticed that most of the words appeared only once and a small number of words appeared very frequently. In addition, this phenomenon seemed to hold true for any text and in any language. Zipf analysed this a little further, and noticed that if you sort the words by frequency and plot the frequency of words versus their rank in the sorted list, you will always get a graph similar to the one below, where a few words have a high frequency (the peak on the left), and most words appear only once (the long tail on the right).
-In technical terms: - Words that appear frequently (the peak on the left) and that happen to be short are called stop-words.
-- Words that only appear once (the tail on the right) are called happax legomena.
-Today, this behaviour of language is known as Zipf’s law and is used tremendously in the Search Engine industry. In fact, it turns out that Zipf’s law is also applicable to many other domains and applications such as monitoring traffic (on the Internet or on the highway), predicting financial activities, and even analysing animal behaviour... Write a program to verify Zipf’s law with your favourite text. Specifically, your program must ask the user for an input text file (please handle potential I/O errors properly), and count how many words the file contains and display the following statistics: - Display each word in the text along with its rank and frequency. You can assume that a word is defined as anything that the method Scanner.next() returns and only contains letters. For example “U2”, “data-base” and “hi!” should not be counted as words. Your program does not have to be case-sensitive. For example, the words “hi” and “Hi” can be considered as same words. The list of rank/word/frequency must be displayed in descending order of frequency, and all words with the same frequency must be displayed in alphabetical order (uppercases before lowercases).
-- Display the total number of word tokens and word types. The number of word tokens refers to the total number of words in the text (the number of times the method Scanner.next() returned a String); whereas the number of word types refers to the number of different words in the text. For example, if the word “the” appears 30 times, it will count as 30 word tokens, but only 1 word type.
-- Display statistics on the happax legomena:  the number of happax,  the percentage of happax (nb happax ÷ nb of word types), and  how many of the tokens in the text they account for (nb happax ÷ nb of word tokens).
-- Display statistics on the stops words:  the number of stop words,  the percentage of stop words (nb stop words ÷ nb of word types), and  how many of the tokens in the text they account for (total frequency of stop stops ÷ nb of word tokens).
+In 1935, the American linguist George Zipf noticed something very peculiar with the books he was reading. Whenever he would count the words in his books, he noticed that most of the words appeared only once and a small number of words appeared very frequently. In addition, this phenomenon seemed to hold true for any text and in any language.
+In technical terms: 
+- Words that appear frequently and that happen to be short are called stop-words.
+- Words that only appear once are called happax legomena.
+
+This program verifies Zipf’s law with any text. Specifically, it prompts the user to input a file and counts how many words the file contains and display the following statistics: 
+-Display each word in the text along with its rank and frequency. It only scans words that contains only letters. For example “U2”, “data-base” and “hi!” are not counted as words. The list of rank/word/frequency is displayed in descending order of frequency, and all words with the same frequency are displayed in alphabetical order (uppercases before lowercases).
+
+This program:
+- Displas the total number of word tokens and word types. The number of word tokens refers to the total number of words in the text; whereas the number of word types refers to the number of different words in the text. For example, if the word “the” appears 30 times, it will count as 30 word tokens, but only 1 word type.
+- Display statistics on the happax legomena:  the number of happax, the percentage of happax, and how many of the tokens in the text they account for.
+- Display statistics on the stops words: the number of stop words, the percentage of stop words (nb stop words ÷ nb of word types), and how many of the tokens in the text they account for.
+
+I am not the owner of this text, I simply edited it.
+All credit goes to Dr. Aiman Hanna and the ENCS Department of Concordia University.
+
