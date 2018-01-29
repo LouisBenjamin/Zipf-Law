@@ -4,8 +4,7 @@ In technical terms:
 - Words that appear frequently and that happen to be short are called stop-words.
 - Words that only appear once are called happax legomena.
 
-This program verifies Zipf’s law with any text. Specifically, it prompts the user to input a file and counts how many words the file contains and display the following statistics: 
--Display each word in the text along with its rank and frequency. It only scans words that contains only letters. For example “U2”, “data-base” and “hi!” are not counted as words. The list of rank/word/frequency is displayed in descending order of frequency, and all words with the same frequency are displayed in alphabetical order (uppercases before lowercases).
+This program verifies Zipf’s law with any text. Specifically, it prompts the user to input a file and counts how many words the file contains and displays each word in the text along with its rank and frequency. It only scans words that contains only letters. For example “U2”, “data-base” and “hi!” are not counted as words. The list of rank/word/frequency is displayed in descending order of frequency, and all words with the same frequency are displayed in alphabetical order (uppercases before lowercases).
 
 This program:
 - Displays the total number of word tokens and word types. The number of word tokens refers to the total number of words in the text; whereas the number of word types refers to the number of different words in the text. For example, if the word “the” appears 30 times, it will count as 30 word tokens, but only 1 word type.
