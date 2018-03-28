@@ -1,8 +1,3 @@
-// -----------------------------------------------------
-// Assignment #4
-// Part: 1 
-// Written by: Louis-Benjamin Durocher ID:40045719
-// -----------------------------------------------------
 /* PURPOSE:
  * A program to verify Zipf’s law with a text. Specifically, the program asks the user for an input text file and counts how many words the file contains 
   and displays the following statistics: 
